@@ -10,8 +10,6 @@ public class LicensePlateValidator {
         System.out.print("Enter license plate number: ");
         String licenseNumber = sc.nextLine();
 
-        isValidLicensePlateNumber(licenseNumber);
-
         if (isValidLicensePlateNumber(licenseNumber)) {
             System.out.println("The license plate number " + licenseNumber + " is valid.");
         }
