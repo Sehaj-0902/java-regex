@@ -10,8 +10,6 @@ public class UsernameValidator {
         System.out.print("Enter username: ");
         String username = sc.nextLine();
 
-        isValidUsername(username);
-
         if (isValidUsername(username)) {
             System.out.println("The username " + username + " is valid.");
         }
